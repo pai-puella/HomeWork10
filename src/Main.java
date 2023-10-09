@@ -8,5 +8,11 @@ public class Main {
 
         System.out.println("Ф. И. О. сотрудника - " + fullName);
         System.out.println();
+
+        System.out.println("Задача 2");
+        String uppercaseFullName = fullName.toUpperCase();
+
+        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета - " + uppercaseFullName);
+        System.out.println();
     }
 }
